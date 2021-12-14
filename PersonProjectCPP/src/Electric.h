@@ -13,6 +13,8 @@ public:
 	Electric();
 
 	void Print() override;
+	
+	float GetChargeTime() { return chargeTime; }
 };
 
 #endif
